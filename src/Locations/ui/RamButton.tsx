@@ -36,7 +36,7 @@ export function RamButton(props: IProps): React.ReactElement {
   return (
     <Tooltip
       title={
-        <MathJaxWrapper>{`\\(\\large{cost = ram \\cdot 3.2 \\cdot 10^4 \\cdot 1.58^{log_2{(ram)}}} ${bnMult}\\)`}</MathJaxWrapper>
+        <MathJaxWrapper>{`\\(\\large{\text{Cost} = \text{RAM} \\cdot 3.2 \\cdot 10^4 \\cdot 1.58^{\log_2{(\text{RAM})}}} ${bnMult}\\)`}</MathJaxWrapper>
       }
     >
       <span>
